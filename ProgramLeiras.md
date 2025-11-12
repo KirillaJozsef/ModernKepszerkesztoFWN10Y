@@ -50,3 +50,9 @@ Commit funkció
 A 'Commit (mentés history-be)' gomb rögzíti a jelenlegi állapotot a history listába. Ez lehetővé teszi az Undo/Redo funkció használatát a későbbi módosításokhoz.
 Reset
 A 'Reset (eredeti)' gomb visszaállítja a kép eredeti állapotát, és törli az Undo/Redo stack-et.
+
+   CSOMAGOK ÉS AZT HOGY MIÉRT HASZNÁLTAM:
+customtkinter:	Modern grafikus felület (UI komponensek, csúszkák, gombok)
+opencv-python:	Képfeldolgozás: forgatás, flip, blur, filterek, crop, resize
+pillow:        	Képek megjelenítése Tkinter Canvas-on
+numpy:        	Tömbök, számítások, mátrixműveletek a képfeldolgozás során
